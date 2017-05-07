@@ -1,0 +1,16 @@
+
+.background {
+background-image: url("background.png");
+    background-color: #cccccc;
+	background-position: center; 
+    background-repeat: no-repeat; 
+}
+.slate {
+background-image: url("slate.jpg");
+    background-color: #cccccc;
+	 background-position: center; 
+    background-repeat: no-repeat; 
+}
+.inslate {
+ text-align: center;
+}
