@@ -1,16 +1,31 @@
 
-.background {
+body {
 background-image: url("background.png");
     background-color: #cccccc;
 	background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+	 
 }
 .slate {
 background-image: url("slate.jpg");
-    background-color: #cccccc;
-	 background-position: center; 
+	background-position: center; 
     background-repeat: no-repeat; 
+	background-size: 40%;
 }
-.inslate {
- text-align: center;
+.in-slate {
+text-align: center;
+vertical-align: left;
+overflow: scroll; /* Добавляем полосы прокрутки */
+ width: px; /* Ширина блока */
+    height: 790px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+	 width: 590px; /* Ширина слоя в пикселах */
+    margin: 0 auto; /* Отступ слева и справа */
+    padding: 1px; /* Поля вокруг текста */
+    text-align: left; /* Выравнивание содержимого слоя по левому краю */
+font-family: 'Lucida Console'; 
+color:green;
+   
+   } 
 }
