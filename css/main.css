@@ -1,36 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     width: 350px;
-    margin: 0;
-    padding: 0 10px;
-    font-size: 14px;
+    padding: 10px 20px;
+    color: black;
     font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
-.hr-1 {
-    text-align: left;
-    color: white;
-    background-color: darkcyan;
-}
-.hr-2 {
-    text-align: center;
-    color: white;
-    background-color: lightblue;
-}
-.hr-3 {
-    text-align: right;
-    color: white;
-    background-color: darkcyan;
-}
-table {
-     border-collapse: collapse;
-}
-th {
-    padding: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    
-}
-td {
-    padding: 10px;
-    width: 33%;
-    border-bottom: 1px solid lightgray;
+
+h1 {
+    margin: 0;
 }
